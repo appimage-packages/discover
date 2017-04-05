@@ -1,0 +1,23 @@
+name: discover
+binary: discover
+packages:
+  - zsync
+  #app specifc
+build_kf5: true
+frameworks:
+  - extra-cmake-modules
+  - kwidgetsaddons
+  - kcoreaddons
+  - ki18n
+  - kdoctools
+  - kconfigwidgets
+  - kitemviews
+  - kiconthemes
+  - kcrash
+  - kxmlgui
+kde_deps: ''
+type: git
+url: http://anongit.kde.org/discover
+buildsystem: cmake
+buildoptions: '-DCMAKE_INSTALL_PREFIX:PATH=/app.Dir/usr -DKDE_INSTALL_SYSCONFDIR=/app.Dir/etc -DBUILD_TESTING=OFF'
+dependencies: false
