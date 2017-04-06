@@ -7,6 +7,7 @@ build_kf5: true
 frameworks:
 - extra-cmake-modules
 - karchive
+- ki18n
 - kcoreaddons
 - kauth
 - kconfig
@@ -27,7 +28,6 @@ frameworks:
 - knewstuff
 - kcodecs
 - solid
-- ki18n
 - kdeclarative
 - kservice
 - kbookmarks
