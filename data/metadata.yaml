@@ -5,16 +5,34 @@ packages:
   #app specifc
 build_kf5: true
 frameworks:
-  - extra-cmake-modules
-  - kwidgetsaddons
-  - kcoreaddons
-  - ki18n
-  - kdoctools
-  - kconfigwidgets
-  - kitemviews
-  - kiconthemes
-  - kcrash
-  - kxmlgui
+- extra-cmake-modules
+- kauth
+- kconfig
+- kcompletion
+- kitemviews
+- attica
+- kdbusaddons
+- kwidgetsaddons
+- kio
+- kplasma
+- kxmlgui
+- kpackage
+- kconfigwidgets
+- kjobwidgets
+- knotifications
+- kcoreaddons
+- kirigami2
+- kcrash
+- knewstuff
+- kcodecs
+- knewstuffcore
+- ksolid
+- ki18n
+- kdeclarative
+- karchive
+- kservice
+- kbookmarks
+- kitemmodels
 kde_deps: ''
 type: git
 url: http://anongit.kde.org/discover
