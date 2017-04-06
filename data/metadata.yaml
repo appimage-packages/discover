@@ -14,7 +14,7 @@ frameworks:
 - kdbusaddons
 - kwidgetsaddons
 - kio
-- plasma-integration
+- plasma-framework
 - kxmlgui
 - kpackage
 - kconfigwidgets
