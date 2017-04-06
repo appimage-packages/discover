@@ -25,10 +25,10 @@ frameworks:
 - knotifications
 - kirigami
 - solid
-- kdeclarative
 - kbookmarks
 - kitemmodels
 - kio
+- kdeclarative
 - knewstuff
 - plasma-framework
 - kxmlgui
