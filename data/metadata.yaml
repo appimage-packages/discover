@@ -25,13 +25,13 @@ frameworks:
 - knotifications
 - kirigami
 - solid
+- kxmlgui
 - kbookmarks
 - kitemmodels
 - kio
 - kdeclarative
 - knewstuff
 - plasma-framework
-- kxmlgui
 kde_deps: ''
 type: git
 url: http://anongit.kde.org/discover
