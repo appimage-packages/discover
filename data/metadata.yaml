@@ -6,6 +6,7 @@ packages:
 build_kf5: true
 frameworks:
 - extra-cmake-modules
+- karchive
 - kcoreaddons
 - kauth
 - kconfig
@@ -28,7 +29,6 @@ frameworks:
 - solid
 - ki18n
 - kdeclarative
-- karchive
 - kservice
 - kbookmarks
 - kitemmodels
