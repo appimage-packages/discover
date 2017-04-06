@@ -8,6 +8,7 @@ frameworks:
 - extra-cmake-modules
 - karchive
 - ki18n
+- kcodecs
 - kcoreaddons
 - kauth
 - kconfigwidgets
@@ -26,7 +27,6 @@ frameworks:
 - kirigami
 - kcrash
 - knewstuff
-- kcodecs
 - solid
 - kdeclarative
 - kservice
