@@ -25,7 +25,6 @@ frameworks:
 - kcrash
 - knewstuff
 - kcodecs
-- knewstuffcore
 - ksolid
 - ki18n
 - kdeclarative
