@@ -18,12 +18,12 @@ frameworks:
 - kitemviews
 - attica
 - kdbusaddons
+- kcrash
 - kservice
 - kpackage
 - kjobwidgets
 - knotifications
 - kirigami
-- kcrash
 - knewstuff
 - solid
 - kdeclarative
