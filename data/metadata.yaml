@@ -12,8 +12,8 @@ frameworks:
 - kconfig
 - kcoreaddons
 - kauth
-- kconfigwidgets
 - kwidgetsaddons
+- kconfigwidgets
 - kcompletion
 - kitemviews
 - attica
