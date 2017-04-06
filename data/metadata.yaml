@@ -21,7 +21,7 @@ frameworks:
 - kjobwidgets
 - knotifications
 - kcoreaddons
-- kirigami2
+- kirigami
 - kcrash
 - knewstuff
 - kcodecs
