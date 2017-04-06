@@ -9,11 +9,11 @@ frameworks:
 - kcoreaddons
 - kauth
 - kconfig
+- kwidgetsaddons
 - kcompletion
 - kitemviews
 - attica
 - kdbusaddons
-- kwidgetsaddons
 - kio
 - plasma-framework
 - kxmlgui
