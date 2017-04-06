@@ -9,10 +9,10 @@ frameworks:
 - karchive
 - ki18n
 - kcodecs
+- kconfig
 - kcoreaddons
 - kauth
 - kconfigwidgets
-- kconfig
 - kwidgetsaddons
 - kcompletion
 - kitemviews
