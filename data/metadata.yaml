@@ -8,6 +8,7 @@ frameworks:
 - extra-cmake-modules
 - karchive
 - ki18n
+- kconfigwidgets
 - kcoreaddons
 - kauth
 - kconfig
@@ -20,7 +21,6 @@ frameworks:
 - plasma-framework
 - kxmlgui
 - kpackage
-- kconfigwidgets
 - kjobwidgets
 - knotifications
 - kirigami
