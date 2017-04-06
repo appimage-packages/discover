@@ -24,12 +24,12 @@ frameworks:
 - kjobwidgets
 - knotifications
 - kirigami
-- knewstuff
 - solid
 - kdeclarative
 - kbookmarks
 - kitemmodels
 - kio
+- knewstuff
 - plasma-framework
 - kxmlgui
 kde_deps: ''
