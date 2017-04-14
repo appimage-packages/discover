@@ -50,6 +50,7 @@ dependencies:
       build:
         buildsystem: make
         buildoptions: ''
+        autoreconf: false
       depname: gobject-introspection-1.46.0
       source:
         type: tar
