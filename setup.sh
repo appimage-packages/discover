@@ -30,8 +30,9 @@ bundle install
 wget https://github.com/probonopd/linuxdeployqt/releases/download/1/linuxdeployqt-1-x86_64.AppImage
 chmod a+x linuxdeployqt-1-x86_64.AppImage
 # Newer glib needed for appstream
+apt-get -y install software-properties-common
 add-apt-repository -y ppa:jonathonf/gtk3.18 && sudo apt-get update && sudo apt-get -y install libglib2.0-dev && add-apt-repository -y -r ppa:jonathonf/gtk3.18
-add-apt-repository ppa:ximion/packagekit && apt-get update && apt-get -y install packagekit && add-apt-repository -y -r ppa:ximion/packagekit
+add-apt-repository -y ppa:ximion/packagekit && apt-get update && apt-get -y install packagekit && add-apt-repository -y -r ppa:ximion/packagekit
 
 rspec /in/tooling/aci/spec/setup_project_rspec.rb --fail-fast
 rspec /in/tooling/aci/spec/dependencies_rspec.rb --fail-fast
