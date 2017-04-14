@@ -54,7 +54,6 @@ dependencies:
       source:
         type: xz
         url:  http://ftp.gnome.org/pub/gnome/sources/gobject-introspection/1.46/gobject-introspection-1.46.0.tar.xz
-        branch: 'master'
   - appstream-qt:
       build:
         buildsystem: cmake
