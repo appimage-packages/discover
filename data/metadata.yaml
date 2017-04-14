@@ -46,14 +46,14 @@ dependencies:
         type: git
         url: 'https://github.com/hughsie/PackageKit-Qt'
         branch: 'master'
-  - gobject-introspection-1:
+  - gobject-introspection:
       build:
         buildsystem: make
         buildoptions: ''
       depname: gobject-introspection-1.46.0
       source:
         type: xz
-        url:  http://ftp.gnome.org/pub/gnome/sources/gobject-introspection/1.46/gobject-introspection-1.46.0.tar.xz
+        url: http://ftp.gnome.org/pub/gnome/sources/gobject-introspection/1.46/gobject-introspection-1.46.0.tar.xz
   - appstream-qt:
       build:
         buildsystem: cmake
