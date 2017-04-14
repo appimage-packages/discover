@@ -1,7 +1,6 @@
 name: discover
 binary: discover
-packages:
-  - packagekit
+packages: false
   #app specifc
 build_kf5: true
 frameworks:
