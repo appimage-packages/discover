@@ -52,7 +52,7 @@ dependencies:
         buildoptions: ''
       depname: gobject-introspection-1.46.0
       source:
-        type: xz
+        type: tar
         url: http://ftp.gnome.org/pub/gnome/sources/gobject-introspection/1.46/gobject-introspection-1.46.0.tar.xz
   - appstream-qt:
       build:
