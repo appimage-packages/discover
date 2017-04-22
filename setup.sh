@@ -21,9 +21,9 @@ set -e
 set -x
 export PATH=/opt/usr/bin:/root/.rbenv/bin:/root/.rbenv/shims:$PATH
 export CPATH=/opt/usr/include/gstreamer-1.0:/opt/usr/include:/opt/usr/include/python3.5:/usr/include
-ln -s /usr/bin/clang++-3.8 /usr/bin/clang++
-ln -s /usr/bin/clang-3.8 /usr/bin/clang
-rm /usr/bin/python && ln -s /opt/usr/bin/python3 /usr/bin/python
+# ln -s /usr/bin/clang++-3.8 /usr/bin/clang++
+# ln -s /usr/bin/clang-3.8 /usr/bin/clang
+# rm /usr/bin/python && ln -s /opt/usr/bin/python3 /usr/bin/python
 # move me to jenkisnfile
 rm -rfv /app.Dir/*
 
