@@ -53,7 +53,7 @@ dependencies:
         buildoptions: '--prefix=/opt/usr'
         insource: false
         autoreconf: false
-      depname: gobject-introspection-1.46.0
+      depname: gobject-introspection
       source:
         type: tar
         url: http://ftp.gnome.org/pub/gnome/sources/gobject-introspection/1.46/gobject-introspection-1.46.0.tar.xz
