@@ -29,8 +29,14 @@ rm -rfv /app.Dir/*
 
 cd ~
 apt-get -y install software-properties-common
-add-apt-repository -y ppa:jonathonf/gtk3.18 && sudo apt-get update && sudo apt-get -y install libglib2.0-dev && add-apt-repository -y -r ppa:jonathonf/gtk3.18
-add-apt-repository -y ppa:ximion/packagekit && apt-get update && apt-get -y install packagekit && add-apt-repository -y -r ppa:ximion/packagekit
+add-apt-repository -y ppa:jonathonf/gtk3.18
+apt-get update
+apt-get -y install libglib2.0-dev
+add-apt-repository -y -r ppa:jonathonf/gtk3.18
+add-apt-repository -y ppa:ximion/packagekit
+apt-get update
+apt-get -y install packagekit
+add-apt-repository -y -r ppa:ximion/packagekit
 
 rbenv local 2.3.1
 bundle install
