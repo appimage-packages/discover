@@ -41,6 +41,7 @@ dependencies:
       build:
         buildsystem: cmake
         buildoptions: '-DCMAKE_INSTALL_PREFIX=/opt/usr -DBUILD_TESTS=FALSE'
+        insource: false
       depname: packagekit-qt
       source:
         type: git
@@ -49,7 +50,8 @@ dependencies:
   - gobject-introspection:
       build:
         buildsystem: make
-        buildoptions: ''
+        buildoptions: '--prefix=/opt/usr'
+        insource: false
         autoreconf: false
       depname: gobject-introspection-1.46.0
       source:
