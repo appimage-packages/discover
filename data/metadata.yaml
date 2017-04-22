@@ -2,6 +2,7 @@ name: discover
 binary: discover
 packages:
   - software-properties-common
+  - libyaml-dev
 build_kf5: true
 frameworks:
 - extra-cmake-modules
