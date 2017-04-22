@@ -28,6 +28,7 @@ export CPATH=/opt/usr/include/gstreamer-1.0:/opt/usr/include:/opt/usr/include/py
 rm -rfv /app.Dir/*
 
 cd ~
+apt-get install software-properties-common
 add-apt-repository -y ppa:jonathonf/gtk3.18 && sudo apt-get update && sudo apt-get -y install libglib2.0-dev && add-apt-repository -y -r ppa:jonathonf/gtk3.18
 add-apt-repository -y ppa:ximion/packagekit && apt-get update && apt-get -y install packagekit && add-apt-repository -y -r ppa:ximion/packagekit
 
