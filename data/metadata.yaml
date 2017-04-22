@@ -1,7 +1,7 @@
 name: discover
 binary: discover
-packages: false
-  #app specifc
+packages:
+  - software-properties-common
 build_kf5: true
 frameworks:
 - extra-cmake-modules
