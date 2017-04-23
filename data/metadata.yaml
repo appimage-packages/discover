@@ -34,7 +34,7 @@ frameworks:
 - kdeclarative
 - knewstuff
 - plasma-framework
-kde_deps: ''
+kde_deps: false
 type: git
 url: http://anongit.kde.org/discover
 buildsystem: cmake
