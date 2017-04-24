@@ -27,7 +27,7 @@ rm -f functions.sh
 cd /app.Dir
 #Move binary/desktop/icon into AppDir
 mv /app.Dir/usr/bin/<%= binary %> .
-mv /app.Dir/usr/share/applications/org.kde.<%= binary %>.desktop <%= binary %>.desktop
+mv /app.Dir/usr/share/applications/org.kde.<%= name %>.desktop <%= name %>.desktop
 cp /app.Dir/usr/share/icons/hicolor/48x48/apps/*<%= name %>* .
 
 mkdir ./etc; cp /etc/mime.types $_
@@ -125,7 +125,7 @@ export QT_PLUGIN_PATH=\$HERE/plugins
 export GRANTLEE_PLUGIN_PATH=\$HERE/plugins
 export PATH=\$HERE/usr/bin/:\$HERE/usr/sbin/:\$HERE/usr/games/:\$HERE/bin/:\$HERE/sbin/:\$PATH
 export LD_LIBRARY_PATH=\$HERE/usr/lib/:\$HERE/usr/lib/x86_64-linux-gnu/:\$HERE/usr/lib64/:\$HERE/lib/:\$HERE/lib/x86_64-linux-gnu/:\$HERE/lib64/:\$LD_LIBRARY_PATH
-export XDG_DATA_DIRS=\$HERE/usr/share:\$HOME/.local/share:\$HERE/share:/usr/local/share/:/usr/share:$XDG_DATA_DIRS
+export XDG_DATA_DIRS=\$HERE/usr/share:\$HOME/.local/share:\$HERE/share:/usr/local/share/:/usr/share:\$XDG_DATA_DIRS
 export XDG_DATA_HOME=\$HOME/.local/share
 export XDG_CONFIG_DIRS=\$HERE/.config:\$HERE/etc/xdg:\$XDG_CONFIG_DIRS
 export KDE_FORK_SLAVES=1
