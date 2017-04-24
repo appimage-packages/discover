@@ -63,7 +63,7 @@ mkdir ./lib
 mv /opt/usr/libexec/Qt* ./usr/bin/ || true
 
 unset LD_LIBRARY_PATH
-~/./linuxdeployqt-1-x86_64.AppImage <%= name %> -verbose=3 -bundle-non-qt-libs -qmldir=/opt/usr/qml
+~/./linuxdeployqt-1-x86_64.AppImage <%= binary %> -verbose=3 -bundle-non-qt-libs -qmldir=/opt/usr/qml
 
 patch_usr
 glibc_needed
