@@ -1,5 +1,5 @@
 name: discover
-binary: discover
+binary: plasma-discover
 packages:
   - software-properties-common
   - libyaml-dev
