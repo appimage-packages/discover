@@ -47,21 +47,21 @@ mv /opt/usr/lib/x86_64-linux-gnu/cmake/* /opt/usr/lib/cmake/
 rmdir /opt/usr/lib/x86_64-linux-gnu/cmake
 mv /opt/usr/lib/x86_64-linux-gnu/* /opt/usr/lib/
 
+mkdir ./lib
 #Uncomment for sound
-#cp -rfv /opt/usr/lib/qt5/plugins/phonon4qt5_backend
-#cp /usr/lib/x86_64-linux-gnu/pulseaudio/*.so* ./usr/lib/
-#cp /opt/usr/bin/gst* ./usr/bin/
-#rm -rfv /opt/usr/lib/gstreamer-1.0/include
-#cp /opt/usr/lib/gstreamer-1.0/* ./lib/
-#cp /usr/lib/x86_64-linux-gnu/pulseaudio/*.so* ./lib/
-#mv /opt/usr/libexec/gstreamer-1.0/* ./usr/bin || true
+cp -rfv /opt/usr/lib/qt5/plugins/phonon4qt5_backend
+cp /opt/usr/bin/gst* ./usr/bin/
+rm -rfv /opt/usr/lib/gstreamer-1.0/include
+cp /opt/usr/lib/gstreamer-1.0/* ./lib/
+cp /usr/lib/x86_64-linux-gnu/pulseaudio/*.so* ./lib/
+mv /opt/usr/libexec/gstreamer-1.0/* ./usr/bin || true
 
 rsync -aruxv --progress /opt/usr/resources/ ./usr/bin/
 rsync -aruxv --progress /opt/usr/translations/ ./usr/bin/
 
-mkdir ./lib
+
 mv /opt/usr/libexec/Qt* ./usr/bin/ || true
-mv /app.Dir/usr/lib/x86_64-linux-gnu/plasma-discover/ /opt/usr/lib/
+mv /app.Dir/usr/lib/x86_64-linux-gnu/plasma-discover/* /opt/usr/lib/
 mv /app.Dir/usr/lib/x86_64-linux-gnu/plugins/* ./plugins/
 mv /app.Dir/usr/lib/x86_64-linux-gnu/libexec/kf5/discover/* ./usr/bin/
 
