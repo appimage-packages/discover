@@ -54,6 +54,7 @@ cp /opt/usr/bin/gst* ./usr/bin/
 rm -rfv /opt/usr/lib/gstreamer-1.0/include
 cp /opt/usr/lib/gstreamer-1.0/* ./lib/
 cp /usr/lib/x86_64-linux-gnu/pulseaudio/*.so* ./lib/
+cp /usr/lib/x86_64-linux-gnu/pulseaudio/*.so* ./usr/lib/
 mv /opt/usr/libexec/gstreamer-1.0/* ./usr/bin || true
 
 rsync -aruxv --progress /opt/usr/resources/ ./usr/bin/
