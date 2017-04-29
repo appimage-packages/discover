@@ -64,7 +64,8 @@ mv /opt/usr/libexec/Qt* ./usr/bin/ || true
 mv /app.Dir/usr/lib/x86_64-linux-gnu/plasma-discover/* /opt/usr/lib/
 mv /app.Dir/usr/lib/x86_64-linux-gnu/plugins/* ./plugins/
 mv /app.Dir/usr/lib/x86_64-linux-gnu/libexec/kf5/discover/* ./usr/bin/
-mv /app.Dir/usr/lib/x86_64-linux-gnu/qml/* ./qml/
+mv /app.Dir/usr/lib/x86_64-linux-gnu/qml/org/kde/* ./qml/
+
 unset LD_LIBRARY_PATH
 ~/./linuxdeployqt-1-x86_64.AppImage <%= binary %> -verbose=3 -bundle-non-qt-libs -qmldir=/opt/usr/qml
 
