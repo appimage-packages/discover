@@ -36,7 +36,7 @@ cp -rfv /usr/share/mime ./usr/share/
 update-mime-database ./usr/share/mime
 
 # Run appimage once with QT_DEBUG_PLUGINS=1 to add missing ( linuxdeployqt should install correctly)
-mkdir -p ./plugins; cp -r /opt/usr/plugins/{bearer,generic} $_
+mkdir -p ./plugins; cp -r /opt/usr/plugins/{bearer,generic,wayland*} $_
 # Bring in kf5 plugins
 mv /opt/usr/plugins/kf5/* ./plugins/ || true
 
