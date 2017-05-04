@@ -34,6 +34,7 @@ frameworks:
 - kdeclarative
 - knewstuff
 - plasma-framework
+- kwayland
 kde_deps: false
 type: git
 url: http://anongit.kde.org/discover
